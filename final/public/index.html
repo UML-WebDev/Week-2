@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      test website
+    </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <!-- Create a form with a method of POST and action is the route in our server.js -->
+      <form action="/register" method="POST" class="form">
+        <label for="username">Username</label>
+        <!-- name is the "key" on the req.body  -->
+        <input type="text" name="username" required>
+        <label for="password">Password</label>
+        <input type="password" name="password" required>
+        <button type="submit">
+          Submit
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

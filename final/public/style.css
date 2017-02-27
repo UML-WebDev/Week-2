@@ -1,0 +1,19 @@
+/* the "div" surrounding the form */
+.container {
+  /* Using flex-box to center */
+  display: flex;
+  /* horizantal centering */
+  justify-content: center; 
+  /* vertical centering (inside this container 60vh) */
+  align-items: center;
+  height: 60vh;
+}
+
+.form {
+  width: 200px;
+}
+
+.form input {
+  margin-bottom: 10px;
+  width: 100%;
+}
